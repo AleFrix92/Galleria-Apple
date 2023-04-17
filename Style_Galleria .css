@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page{
+    padding: 50px;
+}
+.add{
+    font-size: 30px;
+    color: rgb(61, 134, 218);
+}
+.title{
+    padding-bottom: 5px;
+    margin: 10px 0;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.all{
+    float: right;
+    font-size: 15px;
+    color: rgb(61, 134, 218);
+}
+main{
+    background-color: rgba(201, 194, 161, 0.228);
+    width: 100%;
+}
+.album{
+    margin: 10px;
+    float: left;
+    width: calc(100% / 6 - 20px);
+    height: 200px;
+}
+.image img{
+    width: 100%;
+}
+.View{
+    height: 10px;
+    margin-bottom: 1px;
+    color: rgb(146, 146, 146);
+}
